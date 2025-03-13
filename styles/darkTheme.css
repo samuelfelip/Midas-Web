@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #ffd700; /* Color dorado para Midas */
+  --background-dark: #1a1a1a;
+  --text-light: #ffffff;
+  --secondary-dark: #2d2d2d;
+  --accent-dark: #333333;
+}
+
+body.dark-theme {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+}
+
+.dark-theme .navbar {
+  background-color: var(--secondary-dark);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.dark-theme .card {
+  background-color: var(--accent-dark);
+  border: 1px solid var(--primary-color);
+}
+
+.dark-theme .btn-primary {
+  background-color: var(--primary-color);
+  color: var(--background-dark);
+  border: none;
+}
+
+.dark-theme .form-control {
+  background-color: var(--accent-dark);
+  color: var(--text-light);
+  border: 1px solid var(--primary-color);
+} 
