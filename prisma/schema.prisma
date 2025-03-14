@@ -1,0 +1,28 @@
+model Tool {
+  id          String   @id @default(uuid())
+  name        String
+  description String
+  type        ToolType
+  config      Json     // Para almacenar configuración específica de cada herramienta
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+enum ToolType {
+  CALCULATOR
+  INDICATOR
+  CONVERTER
+  ANALYZER
+}
+
+// Actualizar el modelo User para incluir roles
+model User {
+  // ... existing user fields ...
+  role        Role     @default(USER)
+}
+
+enum Role {
+  ADMIN
+  USER
+} 
