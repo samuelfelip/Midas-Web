@@ -11,7 +11,7 @@ interface HeaderProps {
 }
 
 const Header = ({
-  logoUrl = "/vite.svg",
+  logoUrl = "/public/images/Midas_isotipo.png",
   isAuthenticated = false,
   onMenuToggle = () => {},
 }: HeaderProps) => {

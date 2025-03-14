@@ -19,7 +19,7 @@ const HeroSection = ({
   ctaPrimaryText = "Get Started",
   ctaSecondaryText = "View Courses",
   backgroundImage = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1400&q=80",
-  logoUrl = "/vite.svg",
+  logoUrl = "/public/images/Midas_isotipo.png",
   onPrimaryClick = () => {},
   onSecondaryClick = () => {},
 }: HeroSectionProps) => {

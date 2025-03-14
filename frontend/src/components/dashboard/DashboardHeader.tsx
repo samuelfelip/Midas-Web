@@ -25,7 +25,7 @@ const DashboardHeader = ({
   role = "student",
   notificationCount = 3,
   onMenuToggle = () => {},
-  logoUrl = "/vite.svg",
+  logoUrl = "/public/images/Midas_isotipo.png",
 }: DashboardHeaderProps) => {
   return (
     <header className="w-full h-20 bg-background border-b border-border flex items-center justify-between px-4 md:px-6">

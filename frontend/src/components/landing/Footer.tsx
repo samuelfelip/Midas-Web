@@ -29,7 +29,7 @@ interface FooterProps {
 }
 
 const Footer = ({
-  logoUrl = "/vite.svg",
+  logoUrl = "/public/images/Midas_isotipo.png",
   companyName = "Midas Trading Academy",
   socialLinks = {
     facebook: "https://facebook.com",
